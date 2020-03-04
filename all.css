@@ -171,26 +171,25 @@ table {
 	clear: both;
 }
 .content{
-
-	margin: 30px auto 0 auto;
+	width: 1000px;
+	margin: 0 auto;
 } 
 
-.content1{
-	margin-top: 30px;
-}
+
 .content1 h3{
 	color: #44dab4;
 	font-size: 25px;
 	float: left;
 	margin-left: 30px;
 	margin-top: 20px;
+	margin-bottom: 5px;
 }
 .content1 span{
-	display: inline-block;
 	color: #9b9b9b;
 	font-size: 16px;
-	padding-left: 20px;
-	padding-top: 30px;
+	padding-left: 10px;
+	display: inline-block;
+    padding-top: 30px;
 
 }
 .content1 >h5 {
@@ -207,8 +206,30 @@ table {
 .course{
 	margin: 20px auto;
 	margin-left: 60px;
+}
+.course1{
+	width: 850px;
+	margin: 20px auto;
+	margin-left: 60px;
+}
+.course1 ol{
+  list-style-type: decimal;
+  padding-top: 5px;
+  padding-left: 70px;
+  color: #9b9b9b;
+}
+.course1 ul{
+  list-style-type: square;
+  padding-top: 5px;
+  padding-left: 70px;
+  color: #9b9b9b;
 
 }
+.course1 li{
+  padding-left: 10px;
+  line-height:20px;
+}
+
 .intro, .intro2, .intro3 {
 	border: 1px solid #fff;
 	width: 270px;
@@ -225,11 +246,24 @@ table {
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
+
 .course p {
 	color: #9b9b9b;
 	line-height: 20px;
 	display: inline;
 	word-spacing: 3px;
+}
+.course1 h4{
+	padding-bottom: 10px;
+	margin-left: 30px;
+	padding-top: 15px;
+}
+
+.course1 h6 {
+	color: #9b9b9b;
+	line-height: 25px;
+	margin-left: 30px;
+
 }
 
 .diff{
@@ -248,9 +282,7 @@ table {
   color: black;
   font-weight:bold;
 }
-.color{
-  color:#42b392;
-}
+
 .info{
 	margin-top: 50px;
 	height: 250px;
@@ -354,8 +386,6 @@ table {
 .teach{
 	float: left;
 	width: 300px;
-	margin-left: 80px;
-	margin-bottom: 30px;
 }
 .teach-name{
 	float: left;
@@ -410,7 +440,13 @@ table {
 	line-height: 20px;
 	padding-left: 10px;
 }
-
+.color {
+  color:#42b392;
+}
+.course1 .color {
+	color: #42b392;
+	display: inline-block;
+}
 .footer{
 	height: 90px;
 	background-color: #323228;
