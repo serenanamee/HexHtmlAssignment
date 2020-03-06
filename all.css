@@ -102,9 +102,9 @@ table {
 .header1 h2{
 	font-size: 40px;
 	color: #44dab4;
-    font-family:serif,sans-serif,cursive,fantasy,monospace;
-   	margin-top: 130px;
-   	margin-left: 20px;
+	font-family:serif,sans-serif,cursive,fantasy,monospace;
+	margin-top: 130px;
+	margin-left: 20px;
 }
 .header1 span{
 	font-size: 40px;
@@ -114,20 +114,18 @@ table {
 .header1 h3{
 	font-size: 40px;
 	color: #44dab4;
-    font-family: Microsoft JhengHei;
-   	margin-top: 30px;
- 	margin-left: 20px;
+	font-family: Microsoft JhengHei;
+	margin-top: 30px;
+	margin-left: 20px;
 }
-
-
 
 .header2 h2{
 	font-size: 40px;
 	color: #fff;
 	margin-top: 140px;
-   	margin-left: 20px;
-   	margin-bottom: 15px;
-   	letter-spacing: 3px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	letter-spacing: 3px;
 }
 .header2 h3{
 	font-size: 20px;
@@ -170,18 +168,19 @@ table {
 .clearfix{
 	clear: both;
 }
-.content{
-	width: 1000px;
-	margin: 0 auto;
-} 
-
+.temp{
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .content1 h3{
 	color: #44dab4;
 	font-size: 25px;
 	float: left;
-	margin-left: 30px;
-	margin-top: 20px;
+	margin-left: 40px;
+	margin-top: 30px;
 	margin-bottom: 5px;
 }
 .content1 span{
@@ -189,7 +188,21 @@ table {
 	font-size: 16px;
 	padding-left: 10px;
 	display: inline-block;
-    padding-top: 30px;
+	padding-top: 35px;
+
+}
+.content2 h3{
+	color: #44dab4;
+	font-size: 25px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.content2 span{
+	color: #9b9b9b;
+	font-size: 16px;
+	display: inline-block;
 
 }
 .content1 >h5 {
@@ -201,7 +214,6 @@ table {
 	margin-right: 40px;
 	padding: 3px;
 	letter-spacing: 1px;
-
 }
 .course{
 	margin: 20px auto;
@@ -213,21 +225,22 @@ table {
 	margin-left: 60px;
 }
 .course1 ol{
-  list-style-type: decimal;
-  padding-top: 5px;
-  padding-left: 70px;
-  color: #9b9b9b;
+	list-style-type: decimal;
+	padding-top: 5px;
+	padding-left: 70px;
+	color: #9b9b9b;
 }
 .course1 ul{
-  list-style-type: square;
-  padding-top: 5px;
-  padding-left: 70px;
-  color: #9b9b9b;
+	list-style-type: square;
+	padding-top: 5px;
+	padding-left: 70px;
+	color: #9b9b9b;
 
 }
 .course1 li{
-  padding-left: 10px;
-  line-height:20px;
+	padding-left: 10px;
+	line-height:20px;
+	list-style-position: inside;
 }
 
 .intro, .intro2, .intro3 {
@@ -236,11 +249,11 @@ table {
 	height: 270px;
 	float: left;
 	-webkit-box-shadow: 0 3px 8px  #ccc;  
-  	-moz-box-shadow: 0 3px 8px #ccc;  
-  	box-shadow:0 3px 8px #ccc;
-  	text-align: center;
-  	margin-right: 30px;
-  	padding: 5px;
+	-moz-box-shadow: 0 3px 8px #ccc;  
+	box-shadow:0 3px 8px #ccc;
+	text-align: center;
+	margin-right: 30px;
+	padding: 5px;
 }
 .course h4{
 	padding-bottom: 10px;
@@ -278,15 +291,20 @@ table {
 	white-space: nowrap;
 }
 .diff th{
-  background-color: #f7f7f7;
-  color: black;
-  font-weight:bold;
+	background-color: #f7f7f7;
+	color: black;
+	font-weight:bold;
 }
 
 .info{
-	margin-top: 50px;
-	height: 250px;
 	background-color: #ebebeb;
+	height: 250px;
+	margin-top: 50px;	
+}
+.info2{
+	margin-top: 50px;
+	background-color: #ebebeb;
+	height: 420px;
 }
 
 .infotext{
@@ -296,32 +314,41 @@ table {
 	font-size: 25px;
 }
 .infotext2{
-	margin-left: 150px;
-	padding-top: 80px;
 	font-size: 25px;
+
 }
+.temp2{
+	padding-top: 70px;
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
 .promo p, .promo2 p {
 	background-color: #44dab4; 
-    border: none;
-    border-radius: 3px;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 20px;
-    margin-top: 60px;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 60px;
 }
 .infodetail2 {
 	background-color: #44dab4; 
-    border: none;
-    border-radius: 3px;
-    color: white;
-    padding: 10px 30px;
-    text-align: center;
-    font-size: 16px;
-    margin-left: 70px;
-    margin-top: 60px;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 70px;
+	margin-top: 60px;
 }
 
 .infodetail{
@@ -330,11 +357,7 @@ table {
 	margin-top: 80px;
 }
 
-.infodetail textarea{
-	border-radius: 5px;
-	border:none;
-	margin-bottom: 10px;
-}
+
 
 .input-wrapper input{
 	height: 30px;
@@ -344,18 +367,27 @@ table {
 	border-radius: 5px;
 }
 
+.input-wrapper2 input{
+	height: 30px;
+	width: 330px;
+	color: #777;
+	font-size: 15px;
+	border-radius: 5px;
+	padding-bottom: 100px;
+}
+
 .submit{
-  background-color: #44dab4; 
-  border: none;
-  color: white;
-  padding: 10px ;
-  width: 120px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  float: right;
-  border-radius: 5px;
+	background-color: #44dab4; 
+	border: none;
+	color: white;
+	padding: 10px ;
+	width: 120px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	float: right;
+	border-radius: 5px;
 }
 .table-wrapper{
 	margin-top: 20px ;
@@ -363,11 +395,11 @@ table {
 	
 }
 .table-wrapper tr:nth-child(even) {
-    background: #fff;
+	background: #fff;
 }
 
 .table-wrapper tr:nth-child(odd) {
-    background-color: #ebebeb;
+	background-color: #ebebeb;
 }
 
 .table-wrapper td{
@@ -375,17 +407,16 @@ table {
 	padding:15px 400px 15px 50px;
 }
 
-.outline{
-	margin: 90px;
-}
+
 .course2 h3, .outline h3{
 	color: #44dab4;
 	font-size: 25px;
 }
 
 .teach{
-	float: left;
+	float: left;	
 	width: 300px;
+
 }
 .teach-name{
 	float: left;
@@ -416,10 +447,7 @@ table {
 	padding-left: 20px;
 	padding-bottom: 10px;
 }
-.course2{
-	margin-bottom: 50px;
-	margin-left: 90px;
-}
+
 
 .course2 > h3{
 	letter-spacing:10px;
@@ -441,7 +469,7 @@ table {
 	padding-left: 10px;
 }
 .color {
-  color:#42b392;
+	color:#42b392;
 }
 .course1 .color {
 	color: #42b392;
